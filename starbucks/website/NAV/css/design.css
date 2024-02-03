@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    
+
+}
+.navbar ul li{
+    margin: 25px;
+    padding: 25px;
+    width: 150px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color:  rgb(36, 34, 32);;
+}
+a:hover{
+    color: white;
+    border-radius: 3px;
+}
+.navbar .fa{
+    margin-right: 8px;
+}

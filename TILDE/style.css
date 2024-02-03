@@ -1,0 +1,39 @@
+#box0{
+    background-color: mistyrose;
+    padding: 15px;
+    width: 70%;
+    margin: 40px auto;
+}
+#box1{
+    width: 50%;
+    float: left;
+}
+#column{
+    width: 50%;
+    float: left;
+    background-color: orchid;
+}
+
+#box2{
+    clear: left;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 5px 20px;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    margin: 15px;
+    font-size: 32px;
+}
+input:focus{
+    outline: none;
+    color: ;
+    background-color: ;
+}
+#submit{
+    width: 85%;
+    color: slategrey;
+}
